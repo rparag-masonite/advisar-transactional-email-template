@@ -13,7 +13,7 @@
       <mj-class name="u-text--footer" color="#8e8e8e" align="center" font-size="14px" line-height="20px" />
 
       <!-- Button classes -->
-      <mj-class name="button" background-color="#dddddd" font-size="16px" inner-padding="14px 32px"/>
+      <mj-class name="button" background-color="#dddddd" text-transform="uppercase" letter-spacing="2px" font-size="16px" inner-padding="14px 32px"/>
       <mj-class name="button--primary" background-color="#c8102e" color="white" />
       <mj-class name="button--secondary" background-color="#6da0bb" color="white" />
 
