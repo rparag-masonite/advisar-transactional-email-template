@@ -6,6 +6,7 @@
       <!-- Text classes -->
       <mj-class name="header__primary" border-top="5px solid #c8102e" />
       <mj-class name="u-text--title" align="center" font-size="24px" line-height="28px" font-weight="300" />
+      <mj-class name="u-text--s-title" align="center" color="#c8102e" font-size="16px" line-height="20px" font-weight="300" />
       <mj-class name="u-text--subtitle" align="center" font-size="11px" line-height="16px" font-weight="400" color="#8e8e8e" text-transform="uppercase" padding="16px 25px 0px 25px" letter-spacing="0.6px" />
       <mj-class name="u-text--multi" align="left" font-size="16px" line-height="26px" font-weight="300" color="#666666" padding="10px 25px 32px 25px" />
       <mj-class name="u-text--center" align="center" />
@@ -17,6 +18,9 @@
       <mj-class name="button--secondary" background-color="#6da0bb" color="white" />
 
       <mj-class name="link" background-color="transparent" color="#4D93CE" font-size="16px" inner-padding="0px 0px 3px 0px" border-bottom="1px solid #4D93CE" border-radius="0px" />
+
+      <!-- Table Classes -->
+      <mj-table name="table" width="400px" align="center" />
 
       <mj-section background-color="#ffffff" />
       <mj-all font-family="Roboto, sans-serif" color="#303030" />
