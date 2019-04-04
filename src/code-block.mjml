@@ -9,7 +9,7 @@
       <mj-class name="u-text--s-title" align="center" color="#c8102e" font-size="16px" line-height="20px" font-weight="300" />
       <mj-class name="u-text--subtitle" align="center" font-size="11px" line-height="16px" font-weight="400" color="#8e8e8e" text-transform="uppercase" padding="16px 25px 0px 25px" letter-spacing="0.6px" />
       <mj-class name="u-text--multi" align="left" font-size="16px" line-height="26px" font-weight="300" color="#666666" padding="10px 25px 32px 25px" />
-      <mj-class name="u-text--multi" align="left" font-size="16px" line-height="26px" font-weight="300" color="#666666" padding="10px 25px 32px 25px" container-background-color="#000000" />
+      <mj-class name="u-text--code" align="left" font-size="11px" font-family="monospace" line-height="17px" font-weight="300" color="#c6c6c6" padding="10px 25px 10px 25px" container-background-color="#212121" />
       <mj-class name="u-text--center" align="center" />
       <mj-class name="u-text--footer" color="#8e8e8e" align="center" font-size="14px" line-height="20px" />
 
@@ -37,25 +37,186 @@
     </mj-section>
     <mj-section mj-class="header__primary">
     <mj-column>
-      <mj-text mj-class="u-text--subtitle">Paulo Coelho</mj-text>
-      <mj-text mj-class="u-text--title">A Snippet from The Alchemist</mj-text>
-      <!-- Test Hero image
-        <mj-image width="200px" src="https://via.placeholder.com/300" />
-      -->
-      <mj-text mj-class="u-text--multi">THE BOY'S NAME WAS SANTIAGO. DUSK was falling as the boy arrived with his herd at an abandoned church. The roof had fallen in long ago, and an enormous sycamore had grown on the spot where the sacristy had once stood.
-      </mj-text>
-      <mj-text mj-class="u-text--code">He decided to spend the night there. He saw to it that all the sheep entered through the ruined gate, and then laid some planks across it to prevent the flock from wandering away during the night. There were no wolves in the region, but once an animal had strayed during the night, and the boy had had to spend the entire next day searching for it.
-      </mj-text>
-      <mj-button mj-class="button button--secondary" href="https://google.com">
-        Get Started
-      </mj-button>
+      <mj-text mj-class="u-text--subtitle">System Error</mj-text>
+      <mj-text mj-class="u-text--title">Event Failure</mj-text>
+      <mj-table mj-class="table">
+          <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
+            <td style="padding: 10px;">
+              <span>Original Exchange</span><br />
+              <strong style="font-weight: 400; font-size: 16px; color: #000000;">advisar.auth.topic</strong>
+            </td>
+          </tr>
+          <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
+            <td style="padding: 10px;">
+              <span>Original Queue</span><br />
+              <strong style="font-weight: 400; font-size: 16px; color: #000000;">user.create</strong>
+            </td>
+          </tr>
+          <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
+            <td style="padding: 10px;">
+              <span>Type</span><br />
+              <strong style="font-weight: 400; font-size: 16px; color: #000000;">com.advisar.auth.event.UserCreateEvent</strong>
+            </td>
+          </tr>
+          <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
+            <td style="padding: 10px;">
+              <span>Stack Trace</span><br />
+              <strong style="font-weight: 400; font-size: 16px; color: #000000;">org.springframework.amqp.rabbit.listener.exception.ListenerExecutionFailedException: Listener method ‘public void com.advisar.auth.event.external.UserEventListener.onUserCreate(com.advisar.auth.event.UserCreateEvent)’ threw exception</strong>
+            </td>
+          </tr>
+        </mj-table>
+          <mj-text mj-class="u-text--code">at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:196)
+          at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:126)
+          at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:1414)
+          at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.actualInvokeListener(AbstractMessageListenerContainer.java:1337)
+          at sun.reflect.GeneratedMethodAccessor188.invoke(Unknown Source)
+          at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+          at java.lang.reflect.Method.invoke(Method.java:498)
+          at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+          at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:197)
+          at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+          at org.springframework.retry.interceptor.RetryOperationsInterceptor$1.doWithRetry(RetryOperationsInterceptor.java:91)
+          at org.springframework.retry.support.RetryTemplate.doExecute(RetryTemplate.java:287)
+          at org.springframework.retry.support.RetryTemplate.execute(RetryTemplate.java:180)
+          at org.springframework.retry.interceptor.RetryOperationsInterceptor.invoke(RetryOperationsInterceptor.java:115)
+          at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+          at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+          at org.springframework.amqp.rabbit.listener.$Proxy171.invokeListener(Unknown Source)
+          at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:1324)
+          at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.executeListener(AbstractMessageListenerContainer.java:1303)
+          at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doReceiveAndExecute(SimpleMessageListenerContainer.java:817)
+          at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.receiveAndExecute(SimpleMessageListenerContainer.java:801)
+          at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.access$700(SimpleMessageListenerContainer.java:77)
+          at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1042)
+          at java.lang.Thread.run(Thread.java:748)
+          </mj-text>
+         <mj-table mj-class="table">
+          <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
+            <td style="padding: 10px;">
+              <span>Caused by</span><br />
+              <strong style="font-weight: 400; font-size: 16px; color: #000000;">org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [user_username_uix]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement</strong>
+            </td>
+          </tr>
+        </mj-table>
+        <mj-text mj-class="u-text--code">at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:257)
+          at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:223)
+          at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:527)
+          at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+          at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242)
+          at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:153)
+          at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+          at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:135)
+          at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+          at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+          at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+          at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:61)
+          at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+          at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+          at com.sun.proxy.$Proxy134.save(Unknown Source)
+          at com.advisar.auth.service.UserDetailService.create(UserDetailService.java:140)
+          at com.advisar.auth.service.UserDetailService$$FastClassBySpringCGLIB$$e453d827.invoke(<generated>)
+          at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+          at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:746)
+          at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+          at org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:69)
+          at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+          at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+          at com.advisar.auth.service.UserDetailService$$EnhancerBySpringCGLIB$$25feec2a.create(<generated>)
+          at com.advisar.auth.event.external.UserEventListener.onUserCreate(UserEventListener.java:34)
+          at sun.reflect.GeneratedMethodAccessor210.invoke(Unknown Source)
+          at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+          at java.lang.reflect.Method.invoke(Method.java:498)
+          at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:181)
+          at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:114)
+          at org.springframework.amqp.rabbit.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:51)
+          at org.springframework.amqp.rabbit.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:188)
+          ... 23 more
+          </mj-text>
+          <mj-table mj-class="table">
+          <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
+            <td style="padding: 10px;">
+              <span>Caused by</span><br />
+              <strong style="font-weight: 400; font-size: 16px; color: #000000;">org.hibernate.exception.ConstraintViolationException: could not execute statement</strong>
+            </td>
+          </tr>
+        </mj-table>
+        <mj-text mj-class="u-text--code">at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:112)
+        at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+        at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:111)
+        at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:97)
+        at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:178)
+        at org.hibernate.dialect.identity.GetGeneratedKeysDelegate.executeAndExtract(GetGeneratedKeysDelegate.java:57)
+        at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:42)
+        at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2933)
+        at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3524)
+        at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:81)
+        at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:637)
+        at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:282)
+        at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:263)
+        at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:317)
+        at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:318)
+        at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:275)
+        at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:182)
+        at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:113)
+        at org.hibernate.jpa.event.internal.core.JpaPersistEventListener.saveWithGeneratedId(JpaPersistEventListener.java:67)
+        at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:189)
+        at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:132)
+        at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:58)
+        at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:783)
+        at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:768)
+        at sun.reflect.GeneratedMethodAccessor173.invoke(Unknown Source)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:305)
+        at com.sun.proxy.$Proxy129.persist(Unknown Source)
+        at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:490)
+        at sun.reflect.GeneratedMethodAccessor167.invoke(Unknown Source)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:377)
+        at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:200)
+        at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:641)
+        at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+        at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:605)
+        at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:590)
+        at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+        at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:59)
+        at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+        at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:294)
+        at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+        at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+        at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+        ... 49 more
+
+                  ... 23 more
+          </mj-text>
+          <mj-table mj-class="table">
+          <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
+            <td style="padding: 10px;">
+              <span>Caused by</span><br />
+              <strong style="font-weight: 400; font-size: 16px; color: #000000;">org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint “user_username_uix”</strong>
+            </td>
+          </tr>
+        </mj-table>
+        <mj-text mj-class="u-text--code">Detail: Key (username)=(SDIBERARDINO@THEWINDOWDEPOTLLC.COM) already exists.
+          at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2440)
+          at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2183)
+          at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:308)
+          at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:441)
+          at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:365)
+          at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:143)
+          at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:120)
+          at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+          at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+          at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:175)
+          ... 90 more
+          </mj-text>
+          <mj-text mj-class="u-text--code">Payload: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb21wYW55X2lkIjoiZThhYzEwZjUtNDgyYS00OTY2LThlOTctZmVmMTJiMzEwNDU5IiwidXNlcl9pZCI6IjJmMDVmMGEzLTE1OTEtNGM5Ni04ODU4LWNkOTMxNWI5NTY4OSIsInVzZXJfbmFtZSI6IkFEVklTQVJBRE1JTkBNQVNPTklURS5DT00iLCJzY29wZSI6WyJyZWFkIiwidG9rZW4uY3JlYXRlIiwidG9rZW4ucmVmcmVzaCJdLCJsYXN0X25hbWUiOiJBRE1JTiIsImV4cCI6MTU1NDIxMzQ2OSwidHlwZSI6IlNZU1RFTSIsImNvbnRhY3RfaWQiOiIzM2Q3YzRkZS1iZmQ1LTExZTctYWJjNC1jZWMyNzhiNmI1MGEiLCJmaXJzdF9uYW1lIjoiQURWSVNBUiIsImF1dGhvcml0aWVzIjpbIm9yZGVyLnN0YXR1cy51cGRhdGUiLCJjb21wYW55LmFkbWluIiwiYmlkLnBhY2thZ2UuYWRtaW4iLCJvcmRlci5jcmVhdGUiLCJvcmRlci5tb2RpZnkiLCJvcmRlci5tcC5jcmVhdGUiLCJvcmRlci5wdXJjaGFzZSIsInJlcG9ydC5kYXNoYm9hcmQiLCJjb250YWN0LmNzci5jcmVhdGUiLCJ1c2VyLmRpc2FibGUiLCJ1c2VyLmNyZWF0ZSIsIm9yZGVyLmFkbWluIiwiY29tcGFueS50aWVyLm1vZGlmeSIsIm9yZGVyLmNhbmNlbCIsImNvbnRhY3QuYWRtaW4iLCJiaWQuZGV0YWlsLmFkbWluIiwidXNlci5hZG1pbiIsImJpZC5hZG1pbiJdLCJqdGkiOiIwZDJjMmFkNi03OWNhLTRiOWItODRiZi1jYmUwODgzMjVhNmUiLCJjbGllbnRfaWQiOiJub3JnYXlfcmVzaWRlbnRpYWxfdWkifQ.pb8M7vZjICKlWRDlLTB5fTqVR41N7wrn_8mEsB-ktWY","user":{"username":"SDIBERARDINO@THEWINDOWDEPOTLLC.COM","groups":[{"key":"group.contractor","authorities":[],"links":[]},{"key":"group.contractor.admin","authorities":[],"links":[]}],"authorities":[],"details":"{\"contact_id\":\"08249c22-ab22-4eb6-af29-5eb5bd6c85fc\",\"first_name\":\"SANA\",\"last_name\":\"DIBERARDINO\",\"type\":\"CONTRACTOR\",\"company_number\":\"890235\",\"company_id\":\"bfc7e43e-6008-41fe-bdee-bfaa08816423\"}","links":[]}}
+          </mj-text>
     </mj-column>
     </mj-section>
     <mj-section background-color="transparent">
       <mj-column>
-        <!-- Test footer image
-          <mj-image width="600px" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/813538/footer__delivery.png" />
-        -->
         <mj-image padding="32px 25px 10px 25px" width="100px" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/813538/Advisar-logo_mono-subtle.png" />
         <mj-text mj-class="u-text--footer">
           <strong>From Spec to Site</strong>
