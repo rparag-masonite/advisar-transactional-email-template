@@ -17,7 +17,7 @@
       <mj-class name="button" background-color="#dddddd" text-transform="uppercase" letter-spacing="2px" font-size="16px" inner-padding="14px 32px"/>
       <mj-class name="button--primary" background-color="#c8102e" color="white" />
       <mj-class name="button--default" background-color="#6da0bb" color="white" />
-      <mj-class name="button--secondary" background-color="#0288D1" color="white" />
+      <mj-class name="button--secondary" background-color="#00AEEF" color="white" />
 
       <mj-class name="link" background-color="transparent" color="#0288D1" font-size="16px" inner-padding="0px 0px 3px 0px" border-bottom="1px solid #4D93CE" border-radius="0px" />
 
