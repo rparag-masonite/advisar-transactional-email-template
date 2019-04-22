@@ -32,7 +32,7 @@
   <mj-section background-color="transparent"></mj-section>
   <mj-section background-color="#F6F9FC">
       <mj-column>
-        <mj-image width="120px" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/813538/Advisar-logo_color.png" />
+        <mj-image width="120px" src="http://images.advisar.com/email/advisar-logo-color.png" />
       </mj-column>
     </mj-section>
     <mj-section mj-class="header__primary">
@@ -73,10 +73,7 @@
     </mj-section>
     <mj-section background-color="transparent">
       <mj-column>
-        <!-- Test footer image
-          <mj-image width="600px" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/813538/footer__delivery.png" />
-        -->
-        <mj-image padding="32px 25px 10px 25px" width="100px" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/813538/Advisar-logo_mono-subtle.png" />
+        <mj-image padding="32px 25px 10px 25px" width="100px" src="http://images.advisar.com/email/advisar-logo-mono-subtle.png" />
         <mj-text mj-class="u-text--footer">
           <strong>From Spec to Site</strong>
           <br /> <small>We can get your doors delivered in five days or less</small>
