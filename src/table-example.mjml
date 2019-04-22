@@ -70,7 +70,7 @@
         <mj-image padding="32px 25px 10px 25px" width="100px" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/813538/Advisar-logo_mono-subtle.png" />
         <mj-text mj-class="u-text--footer">
           <strong>From Spec to Site</strong>
-          <br /> <small>We can get yout doors delivered in five days or less</small>
+          <br /> <small>We can get your doors delivered in five days or less</small>
         </mj-text>
         <mj-text mj-class="u-text--footer">© 2019 Advisar™ All Rights Reserved</mj-text>
       </mj-column>
