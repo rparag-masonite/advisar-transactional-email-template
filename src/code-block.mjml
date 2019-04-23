@@ -22,7 +22,7 @@
       <mj-class name="link" background-color="transparent" color="#0288D1" font-size="16px" inner-padding="0px 0px 3px 0px" border-bottom="1px solid #4D93CE" border-radius="0px" />
 
       <!-- Table Classes -->
-      <mj-table color="#616161" name="table" width="400px" align="center" />
+      <mj-table color="#616161" name="table" width="100%" align="center" />
 
       <mj-section background-color="#ffffff" />
       <mj-all font-family="Lato, sans-serif" color="#121620" />
