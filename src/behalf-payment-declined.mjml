@@ -1,0 +1,96 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Lato" href="https://fonts.googleapis.com/css?family=Lato"></mj-font>
+    <mj-attributes>
+
+      <!-- Text classes -->
+      <mj-class name="header__primary" border-top="5px solid #c8102e" />
+      <mj-class name="u-text--title" align="center" font-size="24px" line-height="28px" font-weight="300" />
+      <mj-class name="u-text--s-title" align="center" color="#c8102e" font-size="16px" line-height="20px" font-weight="300" />
+      <mj-class name="u-text--subtitle" align="center" font-size="11px" line-height="16px" font-weight="400" color="#8e8e8e" text-transform="uppercase" padding="16px 25px 0px 25px" letter-spacing="0.6px" />
+      <mj-class name="u-text--multi" align="left" font-size="16px" line-height="26px" font-weight="300" color="#666666" padding="10px 25px 32px 25px" />
+      <mj-class name="u-text--center" align="center" />
+      <mj-class name="u-text--footer" color="#8e8e8e" align="center" font-size="14px" line-height="20px" />
+
+      <!-- Button classes -->
+      <mj-class name="button" background-color="#dddddd" text-transform="uppercase" letter-spacing="2px" font-size="16px" inner-padding="14px 32px"/>
+      <mj-class name="button--primary" background-color="#c8102e" color="white" />
+      <mj-class name="button--default" background-color="#6da0bb" color="white" />
+      <mj-class name="button--secondary" background-color="#00AEEF" color="white" />
+
+      <mj-class name="link" background-color="transparent" color="#0288D1" font-size="16px" inner-padding="0px 0px 3px 0px" border-bottom="1px solid #4D93CE" border-radius="0px" />
+
+      <!-- Table Classes -->
+      <mj-table color="#616161" name="table" width="100%" align="center" />
+
+      <mj-section background-color="#ffffff" />
+      <mj-all font-family="Lato, sans-serif" color="#121620" />
+
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#DEE5EE">
+  <mj-section background-color="transparent"></mj-section>
+  <mj-section background-color="#F6F9FC">
+      <mj-column>
+        <mj-image width="120px" src="http://images.advisar.com/email/advisar-logo-color.png" />
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="header__primary">
+    <mj-column>
+      <mj-text mj-class="u-text--subtitle">Order Activity</mj-text>
+      <mj-text mj-class="u-text--title">Payment Declined</mj-text>
+      <mj-image width="200px" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/813538/email__fail.png" />
+      <mj-text mj-class="u-text--multi">A purchase with an amount of <strong style="color: #000000;">$4,807.33</strong> and a <strong style="color: #000000;">Behalf payment method</strong> was declined by Behalf. If you would like more info as to why this payment was declined, <a style="color:#00AEEF;" href="#">please contact Behalf</a>.
+      </mj-text>
+       <mj-table mj-class="table">
+          <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
+            <td style="padding: 10px;">
+              <span style="color:#65758C">Company:</span><br />
+              <span style="font-weight: 400; font-size: 16px; color: #000000;">ADVISAR CLEAR CHOICE WINDOWS & MORE INC</span>
+            </td>
+          </tr>
+          <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
+            <td style="padding: 10px;">
+              <span style="color:#65758C">Email:</span><br />
+              <span style="font-weight: 400; font-size: 16px; color: #000000;">NICK@CLEARCHOICEWIN.COM</span>
+            </td>
+          </tr>
+          <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
+            <td style="padding: 10px;">
+              <span style="color:#65758C">Payment Type:</span><br />
+              <span style="font-weight: 400; font-size: 16px; color: #000000;">Behalf</span>
+            </td>
+          </tr>
+          <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
+            <td style="padding: 10px;">
+              <span style="color:#65758C">Amount:</span><br />
+              <span style="font-weight: 400; font-size: 16px; color: #000000;">$4,807.33</span>
+            </td>
+          </tr>
+          <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
+            <td style="padding: 10px;">
+              <span style="color:#65758C">Time:</span><br />
+              <span style="font-weight: 400; font-size: 16px; color: #000000;">2019-04-05T16:05:02.613Z</span>
+            </td>
+          </tr>
+          <tr style="border: 1px solid #95A4B9; background: #EAF0F6; margin-bottom: 10px; color: #414B5E;">
+            <td style="color:#000000; font-weight: 700; padding: 12px;"><span style="color: #65758C;">Reason:</span><br />Unable to process the current payment request, please re-enter your payment information to proceed. If this error persists please contact Customer Service.</td>
+          </tr>
+        </mj-table>
+        <mj-button mj-class="button button--secondary" href="https://google.com">
+          View Order
+        </mj-button>
+    </mj-column>
+    </mj-section>
+    <mj-section background-color="transparent">
+      <mj-column>
+        <mj-image padding="32px 25px 10px 25px" width="100px" src="http://images.advisar.com/email/advisar-logo-mono-subtle.png" />
+        <mj-text mj-class="u-text--footer">
+          <strong>From Spec to Site</strong>
+          <br /> <small>We can get your doors delivered in five business days</small>
+        </mj-text>
+        <mj-text mj-class="u-text--footer">© 2019 Advisar™ All Rights Reserved</mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
