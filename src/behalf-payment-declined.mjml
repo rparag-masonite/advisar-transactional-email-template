@@ -40,7 +40,7 @@
       <mj-text mj-class="u-text--subtitle">Order Activity</mj-text>
       <mj-text mj-class="u-text--title">Payment Declined</mj-text>
       <mj-image width="200px" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/813538/email__fail.png" />
-      <mj-text mj-class="u-text--multi">A purchase with an amount of <strong style="color: #000000;">$4,807.33</strong> and a <strong style="color: #000000;">Behalf payment method</strong> was declined by Behalf. If you would like more info as to why this payment was declined, <a style="color:#00AEEF;" href="#">please contact Behalf</a>.
+      <mj-text mj-class="u-text--multi">A purchase with an amount of <strong style="color: #000000;">$4,807.33</strong> and a <strong style="color: #000000;">Behalf payment method</strong> was declined by Behalf. If you would like more information as to why this payment was declined, review the recently sent email from Behalf or <a style="color:#00AEEF;" href="#">contact Behalf</a>.
       </mj-text>
        <mj-table mj-class="table">
           <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
@@ -66,15 +66,6 @@
               <span style="color:#65758C">Amount:</span><br />
               <span style="font-weight: 400; font-size: 16px; color: #000000;">$4,807.33</span>
             </td>
-          </tr>
-          <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
-            <td style="padding: 10px;">
-              <span style="color:#65758C">Time:</span><br />
-              <span style="font-weight: 400; font-size: 16px; color: #000000;">2019-04-05T16:05:02.613Z</span>
-            </td>
-          </tr>
-          <tr style="border: 1px solid #95A4B9; background: #EAF0F6; margin-bottom: 10px; color: #414B5E;">
-            <td style="color:#000000; font-weight: 700; padding: 12px;"><span style="color: #65758C;">Reason:</span><br />Unable to process the current payment request, please re-enter your payment information to proceed. If this error persists please contact Customer Service.</td>
           </tr>
         </mj-table>
         <mj-button mj-class="button button--secondary" href="https://google.com">
