@@ -40,7 +40,9 @@
       <mj-text mj-class="u-text--subtitle">Order Activity</mj-text>
       <mj-text mj-class="u-text--title">Payment Declined</mj-text>
       <mj-image width="200px" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/813538/email__fail.png" />
-      <mj-text mj-class="u-text--multi">A purchase with an amount of <strong style="color: #000000;">$4,807.33</strong> and a <strong style="color: #000000;">Behalf payment method</strong> was declined by Behalf. If you would like more information as to why this payment was declined, review the recently sent email from Behalf or <a style="color:#00AEEF;" href="#">contact Behalf</a>.
+      <mj-text mj-class="u-text--multi">A purchase with an amount of <strong style="color: #000000;">$4,807.33</strong> and a <strong style="color: #000000;">Behalf payment method</strong> was declined by Behalf.
+      </mj-text>
+      <mj-text mj-class="u-text--multi">If you would like more information as to why this payment was declined, <strong>review the recently sent email from Behalf<strong>.
       </mj-text>
        <mj-table mj-class="table">
           <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
