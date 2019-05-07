@@ -1,0 +1,82 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Lato" href="https://fonts.googleapis.com/css?family=Lato"></mj-font>
+    <mj-attributes>
+
+      <!-- Text classes -->
+      <mj-class name="header__primary" border-top="5px solid #c8102e" />
+      <mj-class name="u-text--title" align="center" font-size="24px" line-height="28px" font-weight="300" />
+      <mj-class name="u-text--s-title" align="center" color="#c8102e" font-size="16px" line-height="20px" font-weight="300" />
+      <mj-class name="u-text--subtitle" align="center" font-size="11px" line-height="16px" font-weight="400" color="#8e8e8e" text-transform="uppercase" padding="16px 25px 0px 25px" letter-spacing="0.6px" />
+      <mj-class name="u-text--multi" align="left" font-size="16px" line-height="26px" font-weight="300" color="#666666" padding="10px 25px 32px 25px" />
+      <mj-class name="u-text--behalf" align="left" container-background-color="#ffffff" font-size="16px" line-height="23px" font-weight="300" color="#414B5E" padding="10px 25px 10px 25px" />
+      <mj-class name="u-text--center" align="center" />
+      <mj-class name="u-text--footer" color="#8e8e8e" align="center" font-size="14px" line-height="20px" />
+
+      <!-- Button classes -->
+      <mj-class name="button" background-color="#dddddd" text-transform="uppercase" letter-spacing="2px" font-size="16px" inner-padding="14px 32px"/>
+      <mj-class name="button--primary" background-color="#c8102e" color="white" />
+      <mj-class name="button--default" background-color="#6da0bb" color="white" />
+      <mj-class name="button--secondary" background-color="#00AEEF" color="white" />
+
+      <mj-class name="link" background-color="transparent" color="#0288D1" font-size="16px" inner-padding="0px 0px 3px 0px" border-bottom="1px solid #4D93CE" border-radius="0px" />
+
+      <!-- Table Classes -->
+      <mj-table color="#616161" name="table" width="100%" align="center" />
+
+      <mj-section background-color="#ffffff" />
+      <mj-all font-family="Lato, sans-serif" color="#121620" />
+
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#DEE5EE">
+  <mj-section background-color="transparent"></mj-section>
+  <mj-section background-color="#F6F9FC">
+      <mj-column>
+        <mj-image width="120px" src="http://images.advisar.com/email/advisar-logo-color.png" />
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="header__primary">
+    <mj-column>
+      <mj-text mj-class="u-text--subtitle">Not registered yet?</mj-text>
+      <mj-text mj-class="u-text--title">Finance through Behalf</mj-text>
+      <mj-image width="200px" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/813538/email__behalf.png" />
+      <mj-text mj-class="u-text--multi">It seems you haven't yet registered for Behalf financing. When signing up as an Advisar member, you can enjoy more buying power and much more...
+      </mj-text>
+      <mj-text mj-class="u-text--behalf">
+        <span style="font-weight: 700; color:#022f45" >Double the financing</span><br />
+        <span style="font-size: 14px;">Access double your financing limit when signing up for Behalf as an Advisar member</span>
+      </mj-text>
+      <mj-text mj-class="u-text--behalf" container-background-color="#F6F9FC">
+        <span style="font-weight: 700; color:#00aa9d">Get quick access to more buying power</span><br />
+        <span style="font-size: 14px;">Buy what you need to run your business, when you need it.</span>
+      </mj-text>
+      <mj-text mj-class="u-text--behalf">
+        <span style="font-weight: 700; color:#022f45">Pay for puchases over time</span><br />
+        <span style="font-size: 14px;">Set an automatic payment schedule that works for your business: from no fee net terms to 30 – 180 days of financing at a low fixed rate (from 1-3%)</span>
+      </mj-text>
+      <mj-text mj-class="u-text--behalf" container-background-color="#F6F9FC">
+        <span style="font-weight: 700; color:#00aa9d">Control your cash flow</span><br />
+        <span style="font-size: 14px;">By using Behalf to pay virtually any merchant you do business with, over time.</span>
+      </mj-text>
+      <mj-text mj-class="u-text--behalf">
+        <span style="font-weight: 700; color:#022f45">Build business credit as you pay</span><br />
+        <span style="font-size: 14px;">Behalf reports all payments to major business credit bureaus monthly.</span>
+      </mj-text>
+        <mj-button mj-class="button button--secondary" href="https://google.com">
+          Get Started
+        </mj-button>
+    </mj-column>
+    </mj-section>
+    <mj-section background-color="transparent">
+      <mj-column>
+        <mj-image padding="32px 25px 10px 25px" width="100px" src="http://images.advisar.com/email/advisar-logo-mono-subtle.png" />
+        <mj-text mj-class="u-text--footer">
+          <strong>From Spec to Site</strong>
+          <br /> <small>We can get your doors delivered in five business days</small>
+        </mj-text>
+        <mj-text mj-class="u-text--footer">© 2019 Advisar™ All Rights Reserved</mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
