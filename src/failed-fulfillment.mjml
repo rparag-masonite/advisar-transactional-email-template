@@ -40,7 +40,7 @@
     <mj-section mj-class="header__primary">
     <mj-column>
       <mj-text mj-class="u-text--subtitle">System Error</mj-text>
-      <mj-text mj-class="u-text--title">Failrd to Process Fulfillment</mj-text>
+      <mj-text mj-class="u-text--title">Failed to Process Fulfillment</mj-text>
       <mj-table mj-class="table">
           <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
             <td style="padding: 10px;">
