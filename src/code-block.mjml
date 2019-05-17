@@ -29,7 +29,7 @@
 
     </mj-attributes>
   </mj-head>
-  <mj-body background-color="#DEE5EE">
+  <mj-body width="1100px" background-color="#DEE5EE">
   <mj-section background-color="transparent"></mj-section>
   <mj-section background-color="#F6F9FC">
       <mj-column>
