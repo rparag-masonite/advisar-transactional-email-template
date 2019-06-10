@@ -18,6 +18,7 @@
       <mj-class name="button--default" background-color="#ADB5BD" color="white" />
       <mj-class name="button--secondary" background-color="#00AEEF" color="white" />
       <mj-class name="button--success" background-color="#4caf50" color="white" />
+      <mj-class name="button--link" background-color="transparent" color="#00AEEF" padding="0" />
 
       <mj-class name="link" background-color="transparent" color="#0288D1" font-size="16px" inner-padding="0px 0px 3px 0px" border-bottom="1px solid #4D93CE" border-radius="0px" />
 
@@ -86,6 +87,13 @@
       <mj-column>
       	<mj-button mj-class="button button--success" width="250px" href="https://google.com">
           Accept
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-top="0">
+    	<mj-column>
+      	<mj-button mj-class="button button--link" width="250px" href="https://google.com">
+          or View in App
         </mj-button>
       </mj-column>
     </mj-section>
