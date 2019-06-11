@@ -76,27 +76,12 @@
             </td>
           </tr>
         </mj-table>
+      <mj-button mj-class="button button--secondary" width="250px" href="https://google.com">
+          View in App
+        </mj-button>
     </mj-column>
     </mj-section>
-    <mj-section padding-top="0">
-    	<mj-column>
-      	<mj-button mj-class="button button--default" width="250px" href="https://google.com">
-          Reject
-        </mj-button>
-      </mj-column>
-      <mj-column>
-      	<mj-button mj-class="button button--success" width="250px" href="https://google.com">
-          Accept
-        </mj-button>
-      </mj-column>
-    </mj-section>
-    <mj-section padding-top="0">
-    	<mj-column>
-      	<mj-button mj-class="button button--link" width="250px" href="https://google.com">
-          or View in App
-        </mj-button>
-      </mj-column>
-    </mj-section>
+   
     <mj-section background-color="transparent">
       <mj-column>
         <mj-image padding="32px 25px 10px 25px" width="100px" src="http://images.advisar.com/email/advisar-logo-mono-subtle.png" />
