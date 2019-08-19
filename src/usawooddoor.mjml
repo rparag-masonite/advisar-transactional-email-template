@@ -1,0 +1,86 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Inter" href="https://rsms.me/inter/inter.css"></mj-font>
+    <mj-attributes>
+
+      <!-- Text classes -->
+      <mj-class name="header__primary" border-top="5px solid #CE1D35" />
+      <mj-class name="u-text--title" align="center" font-size="24px" line-height="28px" font-weight="300" />
+      <mj-class name="u-text--s-title" align="center" color="#CE1D35" font-size="16px" line-height="20px" font-weight="300" />
+      <mj-class name="u-text--subtitle" align="center" font-size="11px" line-height="16px" font-weight="400" color="#bababc" text-transform="uppercase" padding="16px 25px 0px 25px" letter-spacing="0.6px" />
+      <mj-class name="u-text--multi" align="left" font-size="16px" line-height="26px" font-weight="300" color="#6c6c72" padding="10px 25px 32px 25px" />
+      <mj-class name="u-text--center" align="center" />
+      <mj-class name="u-text--footer" color="#bababc" align="center" font-size="14px" line-height="20px" />
+
+      <!-- Button classes -->
+      <mj-class name="button" background-color="#dddddd" text-transform="uppercase" letter-spacing="2px" font-size="16px" inner-padding="14px 32px"/>
+      <mj-class name="button--primary" background-color="#CE1D35" color="white" />
+      <mj-class name="button--default" background-color="#f8f5f2" color="#525257" />
+      <mj-class name="button--secondary" background-color="#5C9B9F" color="white" />
+
+      <mj-class name="link" background-color="transparent" color="#0288D1" font-size="16px" inner-padding="0px 0px 3px 0px" border-bottom="1px solid #4D93CE" border-radius="0px" />
+
+      <!-- Table Classes -->
+      <mj-table color="#6c6c72" name="table" width="100%" align="center" />
+
+      <mj-section background-color="#ffffff" />
+      <mj-all font-family="Inter, sans-serif" color="#525257" />
+
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#f8f5f2">
+  <mj-section background-color="transparent"></mj-section>
+  <mj-section background-color="#FFFFFF">
+      <mj-column>
+        <mj-image width="180px" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/813538/USAWD-logo_color.png" />
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="header__primary">
+    <mj-column>
+      <mj-text mj-class="u-text--subtitle">Order Activity</mj-text>
+      <mj-text mj-class="u-text--title">New Order!</mj-text>
+        <mj-image width="200px" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/813538/email__success_copy.png" />
+      <mj-text align="center" mj-class="u-text--multi">Good news: <strong style="color: #000000;">Mercedes AMG Petronas Motorsport</strong> placed an order!
+      </mj-text>
+      <mj-table mj-class="table">
+          <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
+            <td style="padding: 10px;"><strong style="font-weight: 400; font-size: 16px;">Order Name</strong></td>
+            <td style="color:#000000; font-weight: 700; text-align: right; padding: 10px;">Perkins</td>
+          </tr>
+          <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
+            <td style="padding: 10px;"><strong style="font-weight: 400; font-size: 16px;">Reference #</strong></td>
+            <td style="color:#000000; font-weight: 700; text-align: right; padding: 10px;">C8406811-190327</td>
+          </tr>
+          <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
+            <td style="padding: 10px;"><strong style="font-weight: 400; font-size: 16px;">MP Order #</strong></td>
+            <td style="color:#000000; font-weight: 700; text-align: right; padding: 10px;">O13379</td>
+          </tr>
+          <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
+            <td style="padding: 10px;"><strong style="font-weight: 400; font-size: 16px;">Date/Time Order Placed</strong></td>
+            <td style="color:#000000; font-weight: 700; text-align: right; padding: 10px;">2019-04-02 12:18:21 ET</td>
+          </tr>
+          <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
+            <td style="padding: 10px;"><strong style="font-weight: 400; font-size: 16px;">Payment Type</strong></td>
+            <td style="color:#000000; font-weight: 700; text-align: right; padding: 10px;">STRIPE_CREDIT</td>
+          </tr>
+          <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
+            <td style="padding: 10px;"><strong style="font-weight: 700; font-size: 16px;">Total Price</strong></td>
+            <td style="color:#000000; font-weight: 700; text-align: right; padding: 10px; font-size: 18px">$15,005.84</td>
+          </tr>
+        </mj-table>
+        <mj-button mj-class="button button--primary" href="https://google.com">
+        Go to Order!
+      </mj-button>
+    </mj-column>
+    </mj-section>
+    <mj-section background-color="transparent">
+      <mj-column>
+        <mj-image padding="32px 25px 10px 25px" width="140px" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/813538/USAWD-logo_grey.png" />
+        <mj-text mj-class="u-text--footer">
+          <strong>Streamline the Door Experience</small>
+        </mj-text>
+        <mj-text mj-class="u-text--footer">© 2019 USA Wood Door All Rights Reserved</mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
