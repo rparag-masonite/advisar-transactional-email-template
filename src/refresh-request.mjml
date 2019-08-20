@@ -44,10 +44,17 @@
       <mj-text align="center" mj-class="u-text--multi"><strong>DANIEL RICCIARDO</strong> requested a refresh on an expired quote:
       </mj-text>
       <mj-table mj-class="table">
-          <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
+          <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px; text-align: center;">
             <td style="padding: 10px;">
-              <span style="color:#65758C">Quote:</span><br />
+              <span style="color:#65758C">Quote Name:</span><br />
               <span style="font-weight: 400; font-size: 16px; color: #000000;">MICHAEL SCHUMACHER</span>
+            </td>
+          </tr>
+
+          <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px; text-align: center;">
+            <td style="padding: 10px;">
+              <span style="color:#65758C">Status:</span><br />
+              <span style="font-weight: 400; letter-spacing: 1px; font-size: 13px; background: #F44336; padding:4px 12px; border-radius: 999px; color: #FFFFFF;">EXPIRED</span>
             </td>
           </tr>
         </mj-table>
@@ -59,6 +66,9 @@
    
     <mj-section background-color="transparent">
       <mj-column>
+        <mj-text mj-class="u-text--footer">
+        If you have any questions or concerns, we're here to help. Contact us via our <a style="color: #121620; font-weight: 700;" href="#">Help Center</a>.
+        </mj-text>
         <mj-image padding="32px 25px 10px 25px" width="100px" src="http://images.advisar.com/email/advisar-logo-mono-subtle.png" />
         <mj-text mj-class="u-text--footer">© 2019 Advisar™ All Rights Reserved</mj-text>
       </mj-column>
