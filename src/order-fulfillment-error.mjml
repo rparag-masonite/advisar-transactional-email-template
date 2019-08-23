@@ -77,7 +77,7 @@
           </tr>
         </mj-table>
       <mj-button mj-class="button button--secondary" width="250px" href="https://google.com">
-          Go to quote
+          Go to order
         </mj-button>
     </mj-column>
     </mj-section>
