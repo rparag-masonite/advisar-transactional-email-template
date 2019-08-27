@@ -38,9 +38,9 @@
     <mj-section mj-class="header__primary">
     <mj-column>
       <mj-text mj-class="u-text--subtitle">Order Activity</mj-text>
-      <mj-text mj-class="u-text--title">A Quote has been split on Purchase</mj-text>
+      <mj-text mj-class="u-text--title">A Quote has been plit</mj-text>
       <mj-image width="200px" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/813538/email__quote.png" />
-      <mj-text mj-class="u-text--multi"><strong style="color: #000000;">KIMI RAIKKONEN</strong>'s unavailable items were split off into a new quote after a purchase with an amount of <strong style="color: #000000;">$4,807.33</strong> was made.
+      <mj-text mj-class="u-text--multi"><strong style="color: #000000;">KIMI RAIKKONEN</strong>'s unavailable items were split off into a new quote after a user began a purchase with an amount of <strong style="color: #000000;">$4,807.33</strong>.
       </mj-text>
       <mj-text color="#4caf50">Purchased Quote:</mj-text>
        <mj-table mj-class="table">
@@ -88,7 +88,7 @@
           View New Quote
         </mj-button>
         <mj-button mj-class="link" href="https://google.com">
-          or view purchased order
+          or view original order
         </mj-button>
     </mj-column>
     </mj-section>
