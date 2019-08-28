@@ -52,10 +52,10 @@ Use the following commands to compile all of the MJML files in the `src` folder:
 
 ```
 gulp compile
+gulp images
 gulp watch
 gulp (both gulp compile and gulp watch in parallel)
 ```
 
 #### TODO
-- add image optimizer
 - verbose error warnings
