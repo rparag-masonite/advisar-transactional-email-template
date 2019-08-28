@@ -2,7 +2,7 @@ var gulp = require('gulp')
 var mjml = require('gulp-mjml')
 
 var path = {
-  mjml: 'src/**/*.mjml',
+  mjml: 'src/*.mjml',
   public: './public',
 };
 
