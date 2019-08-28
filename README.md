@@ -1,4 +1,4 @@
-# MJML Email Starter
+# Advisar Emails with MJML
 
 ## What is this project?
 This repository is a lightweight starter project that may help compile multiple MJML files into static HTML emails at once. Rather than continuously use the command line to compile each file, this project may help manage compile all the files located in the `src` folder.
