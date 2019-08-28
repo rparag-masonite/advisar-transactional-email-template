@@ -1,9 +1,12 @@
-var gulp = require('gulp')
-var mjml = require('gulp-mjml')
+const gulp = require('gulp')
+const mjml = require('gulp-mjml')
+const imagemin = require('gulp-imagemin')
 
-var path = {
+const path = {
   mjml: 'src/*.mjml',
   public: './public',
+  images: 'src/images/*.png',
+  imageDest: './public/images'
 };
 
 gulp.task('compile', function () {
@@ -12,8 +15,14 @@ gulp.task('compile', function () {
     .pipe(gulp.dest(path.public))
 })
 
-gulp.task('watch', function () {
-  gulp.watch(path.mjml, gulp.series('compile'));
+gulp.task('images', function () {
+  return gulp.src(path.images)
+    .pipe(imagemin())
+    .pipe(gulp.dest(path.imageDest))
 })
 
-gulp.task('default', gulp.series('compile', 'watch'));
+gulp.task('watch', function () {
+  gulp.watch(path.mjml, gulp.series('compile', 'images'));
+})
+
+gulp.task('default', gulp.series('compile','images', 'watch'));
