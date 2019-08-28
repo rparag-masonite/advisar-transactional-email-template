@@ -4,11 +4,7 @@
   </mj-head>
   <mj-body background-color="#DEE5EE">
   <mj-section background-color="transparent"></mj-section>
-  <mj-section background-color="#F6F9FC">
-      <mj-column>
-        <mj-image width="120px" src="http://images.advisar.com/email/advisar-logo-color.png" />
-      </mj-column>
-    </mj-section>
+  <mj-include path="includes/logo-section.mjml" />
     <mj-section mj-class="header__primary">
     <mj-column>
       <mj-text mj-class="u-text--subtitle">ORDER ERROR</mj-text>
@@ -54,11 +50,6 @@
     </mj-column>
     </mj-section>
    
-    <mj-section background-color="transparent">
-      <mj-column>
-        <mj-image padding="32px 25px 10px 25px" width="100px" src="http://images.advisar.com/email/advisar-logo-mono-subtle.png" />
-        <mj-text mj-class="u-text--footer">© 2019 Advisar™ All Rights Reserved</mj-text>
-      </mj-column>
-    </mj-section>
+    <mj-include path="includes/footer.mjml" />
   </mj-body>
 </mjml>

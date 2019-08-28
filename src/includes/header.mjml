@@ -9,6 +9,7 @@
   <mj-class name="u-text--multi" align="left" font-size="16px" line-height="26px" font-weight="300" color="#666666" padding="10px 25px 32px 25px" />
   <mj-class name="u-text--center" align="center" />
   <mj-class name="u-text--footer" color="#8e8e8e" align="center" font-size="14px" line-height="20px" />
+  <mj-class name="u-text--code" align="left" font-size="11px" font-family="monospace" line-height="17px" font-weight="300" color="#c6c6c6" padding="10px 25px 10px 25px" container-background-color="#212121" />
 
   <!-- Button classes -->
   <mj-class name="button" background-color="#dddddd" text-transform="uppercase" letter-spacing="2px" font-size="16px" inner-padding="14px 32px"/>
