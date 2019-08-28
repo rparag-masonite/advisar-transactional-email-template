@@ -1,34 +1,6 @@
 <mjml>
   <mj-head>
-    <mj-font name="Lato" href="https://fonts.googleapis.com/css?family=Lato"></mj-font>
-    <mj-attributes>
-
-      <!-- Text classes -->
-      <mj-class name="header__primary" border-top="5px solid #c8102e" />
-      <mj-class name="u-text--title" align="center" font-size="24px" line-height="28px" font-weight="300" />
-      <mj-class name="u-text--s-title" align="center" color="#c8102e" font-size="16px" line-height="20px" font-weight="300" />
-      <mj-class name="u-text--subtitle" align="center" font-size="11px" line-height="16px" font-weight="400" color="#8e8e8e" text-transform="uppercase" padding="16px 25px 0px 25px" letter-spacing="0.6px" />
-      <mj-class name="u-text--multi" align="left" font-size="16px" line-height="26px" font-weight="300" color="#666666" padding="10px 25px 32px 25px" />
-      <mj-class name="u-text--behalf" align="left" container-background-color="#ffffff" font-size="16px" line-height="23px" font-weight="300" color="#414B5E" padding="10px 25px 10px 25px" />
-      <mj-class name="u-text--center" align="center" />
-      <mj-class name="u-text--footer" color="#8e8e8e" align="center" font-size="14px" line-height="20px" />
-      <mj-class name="u-text--code" align="left" font-size="11px" font-family="monospace" line-height="17px" font-weight="300" color="#c6c6c6" padding="10px 25px 10px 25px" container-background-color="#212121" />
-
-      <!-- Button classes -->
-      <mj-class name="button" background-color="#dddddd" text-transform="uppercase" letter-spacing="2px" font-size="16px" inner-padding="14px 32px"/>
-      <mj-class name="button--primary" background-color="#c8102e" color="white" />
-      <mj-class name="button--default" background-color="#6da0bb" color="white" />
-      <mj-class name="button--secondary" background-color="#00AEEF" color="white" />
-
-      <mj-class name="link" background-color="transparent" color="#0288D1" font-size="16px" inner-padding="0px 0px 3px 0px" border-bottom="1px solid #4D93CE" border-radius="0px" />
-
-      <!-- Table Classes -->
-      <mj-table color="#616161" name="table" width="100%" align="center" />
-
-      <mj-section background-color="#ffffff" />
-      <mj-all font-family="Lato, sans-serif" color="#121620" />
-
-    </mj-attributes>
+   <mj-include path="includes/header.mjml" />
   </mj-head>
   <mj-body background-color="#DEE5EE">
   <mj-section background-color="transparent"></mj-section>
