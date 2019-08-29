@@ -1,0 +1,54 @@
+<mjml>
+  <mj-head>
+   <mj-include path="includes/header.mjml" />
+  </mj-head>
+  <mj-body background-color="#DEE5EE">
+  <mj-section background-color="transparent"></mj-section>
+  <mj-include path="includes/logo-section.mjml" />
+    <mj-section mj-class="header__primary">
+    <mj-column>
+      <mj-text mj-class="u-text--subtitle">REFRESHED QUOTE</mj-text>
+      <mj-text mj-class="u-text--title">Item out of Stock</mj-text>
+      <mj-image width="200px" src="./images/email__warning.png" />
+      <mj-text mj-class="u-text--multi"><strong style="color: #000000;">MAX VERSTAPPEN</strong> refreshed a quote that contains products that are currently out of stock. Review the quote information and follow up with the customer.
+      </mj-text>
+       <mj-table mj-class="table">
+          <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
+            <td style="padding: 10px;">
+              <span style="color:#65758C">Quote Name:</span><br />
+              <span style="font-weight: 400; font-size: 16px; color: #000000;">PROJECT_BAYSHOREGARDENS</span>
+            </td>
+          </tr>
+          <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
+            <td style="padding: 10px;">
+              <span style="color:#65758C">Quote Reference #:</span><br />
+              <span style="font-weight: 400; font-size: 16px; color: #000000;">5A4952A1-190826</span>
+            </td>
+          </tr>
+          <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
+            <td style="padding: 10px;">
+              <span style="color:#65758C">Company Name:</span><br />
+              <span style="font-weight: 400; font-size: 16px; color: #000000;">ASTON MARTIN RED BULL RACING</span>
+            </td>
+          </tr>
+          <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
+            <td style="padding: 10px;">
+              <span style="color:#65758C">Company #:</span><br />
+              <span style="font-weight: 400; font-size: 16px; color: #000000;">890308</span>
+            </td>
+          </tr>
+          <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
+            <td style="padding: 10px;">
+              <span style="color:#65758C">Quote Owner:</span><br />
+              <span style="font-weight: 400; font-size: 16px; color: #000000;">MAX VERSTAPPEN</span>
+            </td>
+          </tr>
+        </mj-table>
+        <mj-button mj-class="button button--secondary" href="https://google.com">
+          View Quote
+        </mj-button>
+    </mj-column>
+    </mj-section>
+    <mj-include path="includes/footer.mjml" />
+  </mj-body>
+</mjml>
