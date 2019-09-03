@@ -12,7 +12,7 @@
       <mj-image width="200px" src="./images/customer_refund.png" />
       <mj-text mj-class="u-text--multi"><strong style="color: #000000;">KIMI RAIKKONEN</strong>'s unavailable items were split off into a new quote after starting a purchase with an amount of <strong style="color: #000000;">$4,807.33</strong>.
       </mj-text>
-      <mj-text color="#4caf50">Purchased Quote:</mj-text>
+      <mj-text color="#4caf50">Quote-in-purchase:</mj-text>
        <mj-table mj-class="table">
           <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
             <td style="padding: 10px;">
@@ -58,7 +58,7 @@
           View New Quote
         </mj-button>
         <mj-button mj-class="link" href="https://google.com">
-          or view original order
+          or view quote-in-purchase
         </mj-button>
     </mj-column>
     </mj-section>
