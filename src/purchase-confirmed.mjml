@@ -41,6 +41,8 @@
         <mj-button mj-class="button button--secondary" href="https://google.com">
         View Order
       </mj-button>
+      <mj-text mj-class="u-text--multi"><strong style="color: #000000;">Questions?</strong><br/>If you have questions or concerns about your order, contact us at <a style="color: #000000;" href="mailto:help@advisar.com">help@advisar.com</a> or by calling <a style="color: #000000;" href="tel:8312613580">813-261-3580</a>.
+      </mj-text>
     </mj-column>
     </mj-section>
     <mj-include path="includes/footer.mjml" />
