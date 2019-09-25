@@ -1,18 +1,22 @@
 <mjml>
   <mj-head>
-   <mj-include path="includes/header.mjml" />
+    <mj-include path="includes/header.mjml" />
   </mj-head>
   <mj-body background-color="#DEE5EE">
-  <mj-section background-color="transparent"></mj-section>
-  <mj-include path="includes/logo-section.mjml" />
+    <mj-section background-color="transparent"></mj-section>
+    <mj-section background-color="#F6F9FC">
+      <mj-column>
+        <mj-image width="120px" src="https://images.advisar.com/email/advisar-logo-color.png" />
+      </mj-column>
+    </mj-section>
     <mj-section mj-class="header__primary">
-    <mj-column>
-      <mj-text mj-class="u-text--subtitle">Order Activity</mj-text>
-      <mj-text mj-class="u-text--title">Order Confirmation</mj-text>
+      <mj-column>
+        <mj-text mj-class="u-text--subtitle">Order Activity</mj-text>
+        <mj-text mj-class="u-text--title">Order Confirmation</mj-text>
         <mj-image width="200px" src="./images/email__success.png" />
-      <mj-text align="left" mj-class="u-text--multi">Hello <strong style="color: #000000;">FERNANDO ALONSO</strong>,<br/> Thank you for your order! You can view the summary of the purchase information below, or proceed to the application to view the order details.
-      </mj-text>
-      <mj-table mj-class="table">
+        <mj-text align="left" mj-class="u-text--multi">Hello <strong style="color: #000000;">FERNANDO ALONSO</strong>,<br /> Thank you for your order! You can view the summary of the purchase information below, or proceed to the application to view the order details.
+        </mj-text>
+        <mj-table mj-class="table">
           <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
             <td style="padding: 10px;"><strong style="font-weight: 400; font-size: 16px;">Order Name</strong></td>
             <td style="color:#000000; font-weight: 700; text-align: right; padding: 10px;">Perkins</td>
@@ -21,17 +25,14 @@
             <td style="padding: 10px;"><strong style="font-weight: 400; font-size: 16px;">Reference #</strong></td>
             <td style="color:#000000; font-weight: 700; text-align: right; padding: 10px;">C8406811-190327</td>
           </tr>
+
           <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
-            <td style="padding: 10px;"><strong style="font-weight: 400; font-size: 16px;">MP Order #</strong></td>
-            <td style="color:#000000; font-weight: 700; text-align: right; padding: 10px;">O13379</td>
-          </tr>
-          <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
-            <td style="padding: 10px;"><strong style="font-weight: 400; font-size: 16px;">Date/Time Order Placed</strong></td>
-            <td style="color:#000000; font-weight: 700; text-align: right; padding: 10px;">2019-04-02 12:18:21 ET</td>
+            <td style="padding: 10px;"><strong style="font-weight: 400; font-size: 16px;">Purchased On</strong></td>
+            <td style="color:#000000; font-weight: 700; text-align: right; padding: 10px;">2019-04-02 12:18:21</td>
           </tr>
           <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
             <td style="padding: 10px;"><strong style="font-weight: 400; font-size: 16px;">Payment Type</strong></td>
-            <td style="color:#000000; font-weight: 700; text-align: right; padding: 10px;">STRIPE_CREDIT</td>
+            <td style="color:#000000; font-weight: 700; text-align: right; padding: 10px;">VISA **** **** **** 4242</td>
           </tr>
           <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
             <td style="padding: 10px;"><strong style="font-weight: 700; font-size: 16px;">Total Price</strong></td>
@@ -39,12 +40,17 @@
           </tr>
         </mj-table>
         <mj-button mj-class="button button--secondary" href="https://google.com">
-        View Order
-      </mj-button>
-      <mj-text mj-class="u-text--multi"><strong style="color: #000000;">Questions?</strong><br/>If you have questions or concerns about your order, contact us at <a style="color: #000000;" href="mailto:help@advisar.com">CustomerCare@Advisar.com</a> or by calling <a style="color: #000000;" href="tel:8312613580">813-261-3580</a>.
-      </mj-text>
-    </mj-column>
+          View Order
+        </mj-button>
+        <mj-text mj-class="u-text--multi"><strong style="color: #000000;">Questions?</strong><br />If you have questions or concerns about your order, contact us at <a style="color: #000000;" href="mailto:help@advisar.com">CustomerCare@Advisar.com</a> or by calling <a style="color: #000000;" href="tel:8312613580">813-261-3580</a>.
+        </mj-text>
+      </mj-column>
     </mj-section>
-    <mj-include path="includes/footer.mjml" />
+    <mj-section background-color="transparent">
+      <mj-column>
+        <mj-image padding="32px 25px 10px 25px" width="100px" src="https://images.advisar.com/email/advisar-logo-mono-subtle.png" />
+        <mj-text mj-class="u-text--footer">© 2019 Advisar™ All Rights Reserved</mj-text>
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
