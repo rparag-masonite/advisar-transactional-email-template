@@ -48,7 +48,7 @@
       </mj-table>
       <mj-accordion>
         <mj-accordion-element>
-          <mj-accordion-title>Product Details</mj-accordion-title>
+          <mj-accordion-title>PRODUCT DETAILS</mj-accordion-title>
           <mj-accordion-text>
             <table style="width: 100%;">
               <tbody>
@@ -132,7 +132,7 @@
       </mj-table>
       <mj-accordion>
         <mj-accordion-element>
-          <mj-accordion-title>Product Details</mj-accordion-title>
+          <mj-accordion-title>PRODUCT DETAILS</mj-accordion-title>
           <mj-accordion-text>
             <table style="width: 100%;">
               <tbody>
@@ -201,7 +201,7 @@
 
       <mj-divider />
 
-      <mj-text mj-class="u-text--subtitle">Quote Details</mj-text>
+      <mj-text mj-class="u-text--subtitle">Follow up</mj-text>
       <mj-text align="center" mj-class="u-text--multi">
         COMPANY ELITE-C
         <br />
