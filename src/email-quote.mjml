@@ -7,7 +7,7 @@
   <mj-include path="includes/logo-section.mjml" />
     <mj-section mj-class="header__primary">
     <mj-column>
-      <mj-text mj-class="u-text--subtitle">Download Quote</mj-text>
+      <mj-text mj-class="u-text--subtitle">View Quote</mj-text>
       <mj-text mj-class="u-text--title">You've been sent a quote!</mj-text>
       <mj-image width="200px" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/813538/customer_refund.png" />
       <mj-text align="center" mj-class="u-text--multi"><strong style="color: black;">KIMI RAIKKONEN</strong> has sent you a quote (#7503C6A1-191107) for the items you requested. View your quote summary and the product details for your item(s) in the sections below: 
