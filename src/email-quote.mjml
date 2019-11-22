@@ -1,0 +1,219 @@
+<mjml>
+  <mj-head>
+   <mj-include path="includes/header.mjml" />
+  </mj-head>
+  <mj-body background-color="#DEE5EE">
+  <mj-section background-color="transparent"></mj-section>
+  <mj-include path="includes/logo-section.mjml" />
+    <mj-section mj-class="header__primary">
+    <mj-column>
+      <mj-text mj-class="u-text--subtitle">View Quote</mj-text>
+      <mj-text mj-class="u-text--title">You've been sent a quote!</mj-text>
+      <mj-image width="200px" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/813538/customer_refund.png" />
+      <mj-text align="center" mj-class="u-text--multi"><strong style="color: black;">KIMI RAIKKONEN</strong> has sent you a quote (#7503C6A1-191107) for the items you requested. View your quote summary and the product details for your item(s) in the sections below: 
+      </mj-text>
+
+      <mj-table width="300px">
+        <tr>
+          <td style="text-align: left; padding: 8px 0px;">Total Sale Price</td>
+          <td style="text-align: right; padding: 8px 0px;">$6,509.56</td>
+        </tr>
+        <tr>
+          <td style="text-align: left; padding: 8px 0px;">Discount</td>
+          <td style="text-align: right; padding: 8px 0px; color: #F44336;">-$100.00</td>
+        </tr>
+        <tr>
+          <td style="padding: 16px 0px; border-top: 1px solid rgba(0,0,0,.12); text-align: left; font-size: 16px; color: black;">Order Total</td>
+          <td style="padding: 16px 0px; border-top: 1px solid rgba(0,0,0,.12); text-align: right; font-size: 24px; font-weight: 700; color: black;">$6,409.56</td>
+        </tr>
+      </mj-table>
+
+      <mj-divider />
+      <mj-text mj-class="u-text--subtitle" align="left">Quoted Items</mj-text>
+
+      <mj-table padding="10px 25px 0px">
+        <tr>
+          <td style="width: 80px; text-align:center; background:#EAF0F6; padding: 16px;">
+            <img src="https://images.advisar.com/products/3000/exterior-door/preview/espresso/dr_sg_2p_cheyenne_lite_106_naples.png" style="width: auto; height: 100%; max-height: 80px;">
+          </td>
+          <td style="padding: 16px; background: #F6F9FC;">
+            3/0 X 6/6 SMOOTH FG 2 PANEL CHEYENNE BELLEVILLE PREM SPEC COMPOSITE EDGE PRE-FINISHED SINGLE PH WITH SINGLE DOOR 2P CHEYENNE 1/2 GLASS
+            <br />
+            <div></div>
+            <strong style="font-size: 16px; line-height: 160%; color: black;">$3,254.78</strong>/ Unit &nbsp;|&nbsp; QTY: 1
+          </td>
+          <td>
+          </td>
+        </tr>
+      </mj-table>
+      <mj-accordion>
+        <mj-accordion-element>
+          <mj-accordion-title>PRODUCT DETAILS</mj-accordion-title>
+          <mj-accordion-text>
+            <table style="width: 100%;">
+              <tbody>
+                <tr>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%;">PANEL</td>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%; text-align: right; color: black;">Single PH | 2 Panel Cheyenne</td>
+                </tr>
+                <tr>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%;">GLASS</td>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%; text-align: right; color: black;">Naples | 22 x 36 | Lip Lite Glazing</td>
+                </tr>
+                <tr>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%;">DIMENSIONS</td>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%; text-align: right; color: black;">W 36” x H 78” x T 1.75”</td>
+                </tr>
+                <tr>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%;">SIDELITES</td>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%; text-align: right; color: black;">None</td>
+                </tr>
+                <tr>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%;">PACKAGE</td>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%; text-align: right; color: black;">Smart</td>
+                </tr>
+                <tr>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%;">JAMB DEPTH</td>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%; text-align: right; color: black;">6-9/16
+</td>
+                </tr>
+                <tr>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%;">CASING PROFILE</td>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%; text-align: right; color: black;">WM445</td>
+                </tr>
+                <tr>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%;">HANDING</td>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%; text-align: right; color: black;">Right-hand Inswing<br/ > Door Covered: No</td>
+                </tr>
+                <tr>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%;">DOOR FINISH</td>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%; text-align: right; color: black;">Exterior: Espresso<br />Interior: Espresso</td>
+                </tr>
+                <tr>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%;">FRAME FINISH</td>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%; text-align: right; color: black;">Exterior: Espresso<br />Interior: Espresso</td>
+                </tr>
+                <tr>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%;">INTERIOR CASING FINISH</td>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%; text-align: right; color: black;">Nimbus</td>
+                </tr>
+                <tr>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%;">WEATHER STRIPPING</td>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%; text-align: right; color: black;">Bronze</td>
+                </tr>
+                <tr>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%;">HARDWARE</td>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%; text-align: right; color: black;">Emtek | Ares w/ Electric Deadbolt | Poseidon Lever | SN</td>
+                </tr>
+                <tr>
+                  <td style="line-height: 150%; padding: 8px 0px; width: 50%;">ADD-ONS</td>
+                  <td style="line-height: 150%; padding: 8px 0px; width: 50%; text-align: right; color: black;">Brick Mold: None<br />Inactive Prep: None<br />Peep Site: None<br />ADA Peep Site: None</td>
+                </tr>
+              </tbody>
+            </table>
+          </mj-accordion-text>
+        </mj-accordion-element>
+      </mj-accordion>
+
+      <mj-table padding="10px 25px 0px">
+        <tr>
+          <td style="width: 80px; text-align:center; background:#EAF0F6; padding: 16px;">
+            <img src="https://images.advisar.com/products/3000/exterior-door/preview/cranberry/dr_dd_lsl_half_6p_lite_122_panama_panama.png" style="width: auto; height: 100%; max-height: 80px;">
+          </td>
+          <td style="padding: 16px; background: #F6F9FC;">
+            3/0 X 6/6 SMOOTH FG 2 PANEL CHEYENNE BELLEVILLE PREM SPEC COMPOSITE EDGE PRE-FINISHED SINGLE PH WITH SINGLE DOOR 2P CHEYENNE 1/2 GLASS
+            <br />
+            <div></div>
+            <strong style="font-size: 16px; line-height: 160%; color: black;">$3,254.78</strong>/ Unit &nbsp;|&nbsp; QTY: 1
+          </td>
+          <td>
+          </td>
+        </tr>
+      </mj-table>
+      <mj-accordion>
+        <mj-accordion-element>
+          <mj-accordion-title>PRODUCT DETAILS</mj-accordion-title>
+          <mj-accordion-text>
+            <table style="width: 100%;">
+              <tbody>
+                <tr>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%;">PANEL</td>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%; text-align: right; color: black;">Single PH | 2 Panel Cheyenne</td>
+                </tr>
+                <tr>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%;">GLASS</td>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%; text-align: right; color: black;">Naples | 22 x 36 | Lip Lite Glazing</td>
+                </tr>
+                <tr>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%;">DIMENSIONS</td>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%; text-align: right; color: black;">W 36” x H 78” x T 1.75”</td>
+                </tr>
+                <tr>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%;">SIDELITES</td>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%; text-align: right; color: black;">None</td>
+                </tr>
+                <tr>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%;">PACKAGE</td>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%; text-align: right; color: black;">Smart</td>
+                </tr>
+                <tr>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%;">JAMB DEPTH</td>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%; text-align: right; color: black;">6-9/16
+</td>
+                </tr>
+                <tr>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%;">CASING PROFILE</td>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%; text-align: right; color: black;">WM445</td>
+                </tr>
+                <tr>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%;">HANDING</td>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%; text-align: right; color: black;">Right-hand Inswing<br/ > Door Covered: No</td>
+                </tr>
+                <tr>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%;">DOOR FINISH</td>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%; text-align: right; color: black;">Exterior: Espresso<br />Interior: Espresso</td>
+                </tr>
+                <tr>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%;">FRAME FINISH</td>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%; text-align: right; color: black;">Exterior: Espresso<br />Interior: Espresso</td>
+                </tr>
+                <tr>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%;">INTERIOR CASING FINISH</td>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%; text-align: right; color: black;">Nimbus</td>
+                </tr>
+                <tr>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%;">WEATHER STRIPPING</td>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%; text-align: right; color: black;">Bronze</td>
+                </tr>
+                <tr>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%;">HARDWARE</td>
+                  <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%; text-align: right; color: black;">Emtek | Ares w/ Electric Deadbolt | Poseidon Lever | SN</td>
+                </tr>
+                <tr>
+                  <td style="line-height: 150%; padding: 8px 0px; width: 50%;">ADD-ONS</td>
+                  <td style="line-height: 150%; padding: 8px 0px; width: 50%; text-align: right; color: black;">Brick Mold: None<br />Inactive Prep: None<br />Peep Site: None<br />ADA Peep Site: None</td>
+                </tr>
+              </tbody>
+            </table>
+          </mj-accordion-text>
+        </mj-accordion-element>
+      </mj-accordion>
+
+      <mj-divider />
+
+      <mj-text mj-class="u-text--subtitle">Follow up</mj-text>
+      <mj-text align="center" mj-class="u-text--multi">
+        COMPANY ELITE-C
+        <br />
+        <span style="font-size: 14px;">Phone: (888) 888-8888</span>
+        <br />
+        <span style="font-size: 14px;">Email: PRIMARY@ELITE-C.COM</span>
+        <br />
+        <span style="font-size: 14px;">Created On: Monday, November 11, 2019</span>
+      </mj-text>
+
+    </mj-column>
+    </mj-section>
+    <mj-include path="includes/footer.mjml" />
+  </mj-body>
+</mjml>
