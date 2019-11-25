@@ -8,8 +8,8 @@
     <mj-section mj-class="header__primary">
     <mj-column>
       <mj-text mj-class="u-text--subtitle">ORDER ERROR</mj-text>
-      <mj-text mj-class="u-text--title">Inventory Error During Purchase</mj-text>
-      <mj-text mj-class="u-text--multi">A purchased order for <strong style="color: #000000;">KIMI RAIKKONEN</strong> may have insufficient inventory:
+      <mj-text mj-class="u-text--title">Payment in Review</mj-text>
+      <mj-text mj-class="u-text--multi">A payment for <strong style="color: #000000;">KIMI RAIKKONEN</strong> has been in review for <strong style="color: #000000;">13 hours</strong>:
       </mj-text>
       
       <mj-table mj-class="table">
