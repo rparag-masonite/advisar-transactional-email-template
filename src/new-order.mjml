@@ -6,69 +6,89 @@
   <mj-section background-color="transparent"></mj-section>
   <mj-include path="includes/logo-section.mjml" />
     <mj-section mj-class="header__primary">
-    <mj-column>
-      <mj-text mj-class="u-text--subtitle">Order Activity</mj-text>
-      <mj-text mj-class="u-text--title">New Order!</mj-text>
-        <mj-image width="200px" src="./images/email__success.png" />
-      <mj-text align="center" mj-class="u-text--multi">Good news: <strong style="color: #000000;">IAN MCGINLEY at ADVISAR R & S WINDOWS</strong> placed an order!
-      </mj-text>
-      <mj-table mj-class="table">
-          <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
-            <td style="padding: 10px;"><strong style="font-weight: 400; font-size: 16px;">Order Name</strong></td>
-            <td style="color:#000000; font-weight: 700; text-align: right; padding: 10px;">Perkins</td>
-          </tr>
-          <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
-            <td style="padding: 10px;"><strong style="font-weight: 400; font-size: 16px;">Reference #</strong></td>
-            <td style="color:#000000; font-weight: 700; text-align: right; padding: 10px;">C8406811-190327</td>
-          </tr>
-          <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
-            <td style="padding: 10px;"><strong style="font-weight: 400; font-size: 16px;">MP Order #</strong></td>
-            <td style="color:#000000; font-weight: 700; text-align: right; padding: 10px;">O13379</td>
-          </tr>
-          <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
-            <td style="padding: 10px;"><strong style="font-weight: 400; font-size: 16px;">Date/Time Order Placed</strong></td>
-            <td style="color:#000000; font-weight: 700; text-align: right; padding: 10px;">2019-04-02 12:18:21 ET</td>
-          </tr>
-          <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
-            <td style="padding: 10px;"><strong style="font-weight: 400; font-size: 16px;">Payment Type</strong></td>
-            <td style="color:#000000; font-weight: 700; text-align: right; padding: 10px;">STRIPE_CREDIT</td>
-          </tr>
-        </mj-table>
-        <mj-table mj-class="table" border="1px solid rgba(0,0,0,0.12);">
-          <tr style="background: rgba(0,0,0,0.04); margin-bottom: 10px;">
-            <td style="padding: 0px 10px; color: rgba(0,0,0,0.54);">
-              <strong style="font-weight: 700; font-size: 16px;">Company Cost</strong>
-            </td>
-            <td style="color:#000000; font-weight: 700; text-align: right; padding: 4px 10px; font-size: 24px">$8,346.84</td>
-          </tr>
-          <tr style="background: rgba(0,0,0,0.04); margin-bottom: 10px;">
-            <td style="padding: 0px 10px; color: rgba(0,0,0,0.54);">
-              <span style="font-size: 14px;">Subtotal</span>
-            </td>
-            <td style="rgba(0,0,0,0.54); font-weight: 700; text-align: right; padding: 4px 10px; font-size: 14px">$8,000.00</td>
-          </tr>
-          <tr style="background: rgba(0,0,0,0.04); margin-bottom: 10px;">
-            <td style="padding: 0px 10px; color: rgba(0,0,0,0.54);">
-              <span style="font-size: 14px;">Tax</span>
-            </td>
-            <td style="rgba(0,0,0,0.54); font-weight: 700; text-align: right; padding: 4px 10px; font-size: 14px">$446.84</td>
-          </tr>
-          <tr style="background: rgba(0,0,0,0.04); margin-bottom: 10px; border-bottom: 1px solid rgba(0,0,0,0.12);">
-            <td style="padding: 0px 10px; color: rgba(0,0,0,0.54);">
-              <span style="font-size: 14px;">Discount</span>
-            </td>
-            <td style="rgba(0,0,0,0.54); font-weight: 700; text-align: right; padding: 4px 10px; font-size: 14px">$100.00</td>
-          </tr>
-          <tr style="background: rgba(0,0,0,0.04); margin-bottom: 10px;">
-            <td style="padding: 20px 10px;  color: rgba(0,0,0,0.54);"><strong style="font-weight: 700; font-size: 16px;">Customer Price</strong></td>
-            <td style="color:#000000; font-weight: 700; text-align: right; padding: 10px; font-size: 24px">$12,005.84</td>
-          </tr>
-        </mj-table>
-        <mj-button mj-class="button button--secondary" href="https://google.com">
-        Go to Order!
-      </mj-button>
-    </mj-column>
-    </mj-section>
+      <mj-column>
+        <mj-text mj-class="u-text--subtitle">Order Activity</mj-text>
+        <mj-text mj-class="u-text--title">New Order!</mj-text>
+          <mj-image width="200px" src="./images/email__success.png" />
+        <mj-text align="center" mj-class="u-text--multi">Good news: <strong style="color: #000000;">IAN MCGINLEY at ADVISAR R & S WINDOWS</strong> placed an order!
+        </mj-text>
+        <mj-table mj-class="table">
+            <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
+              <td style="padding: 10px;"><strong style="font-weight: 400; font-size: 16px;">Order Name</strong></td>
+              <td style="color:#000000; font-weight: 700; text-align: right; padding: 10px;">Perkins</td>
+            </tr>
+            <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
+              <td style="padding: 10px;"><strong style="font-weight: 400; font-size: 16px;">Reference #</strong></td>
+              <td style="color:#000000; font-weight: 700; text-align: right; padding: 10px;">C8406811-190327</td>
+            </tr>
+            <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
+              <td style="padding: 10px;"><strong style="font-weight: 400; font-size: 16px;">MP Order #</strong></td>
+              <td style="color:#000000; font-weight: 700; text-align: right; padding: 10px;">O13379</td>
+            </tr>
+            <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
+              <td style="padding: 10px;"><strong style="font-weight: 400; font-size: 16px;">Date/Time Order Placed</strong></td>
+              <td style="color:#000000; font-weight: 700; text-align: right; padding: 10px;">2019-04-02 12:18:21 ET</td>
+            </tr>
+            <tr style="border: 1px solid #C6C6C6; margin-bottom: 10px;">
+              <td style="padding: 10px;"><strong style="font-weight: 400; font-size: 16px;">Payment Type</strong></td>
+              <td style="color:#000000; font-weight: 700; text-align: right; padding: 10px;">STRIPE_CREDIT</td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0px">
+        <mj-column>
+          <mj-table mj-class="table">
+            <tr style="background: rgba(0,0,0,0.04);">
+              <td style="padding: 10px 10px; color: rgba(0,0,0,0.54);">
+                <strong style="font-weight: 700; font-size: 14px;">Customer Price</strong>
+              </td>
+              <td style="rgba(0,0,0,0.54); font-weight: 700; text-align: right; padding: 4px 10px; font-size: 14px">-$10,621.69</td>
+            </tr>
+            <tr style="background: rgba(0,0,0,0.04);">
+              <td style="padding: 10px 10px; color: rgba(0,0,0,0.54);">
+                <span style="font-size: 14px;">Discount</span>
+              </td>
+              <td style="rgba(0,0,0,0.54); font-weight: 700; text-align: right; padding: 4px 10px; font-size: 14px">-$100.00</td>
+            </tr>
+            <tr style="background: rgba(0,0,0,0.04);">
+              <td style="padding: 10px 10px; color: rgba(0,0,0,0.54);">
+                <strong style="font-weight: 700; font-size: 14px;">Customer Total</strong>
+              </td>
+              <td style="color:#000000; font-weight: 700; text-align: right; padding: 4px 10px; font-size: 20px">$10,521.69</td>
+            </tr>
+          </mj-table>
+        </mj-column>
+        <mj-column>
+          <mj-table mj-class="table">
+            <tr style="background: rgba(0,0,0,0.04);">
+              <td style="padding: 10px 10px; color: rgba(0,0,0,0.54);">
+                <span style="font-size: 14px;">Subtotal</span>
+              </td>
+              <td style="rgba(0,0,0,0.54); font-weight: 700; text-align: right; padding: 4px 10px; font-size: 14px">$9,019.72</td>
+            </tr>
+            <tr style="background: rgba(0,0,0,0.04);">
+              <td style="padding: 10px 10px; color: rgba(0,0,0,0.54);">
+                <span style="font-size: 14px;">Tax</span>
+              </td>
+              <td style="rgba(0,0,0,0.54); font-weight: 700; text-align: right; padding: 4px 10px; font-size: 14px">$856.34</td>
+            </tr>
+            <tr style="background: rgba(0,0,0,0.04);">
+              <td style="padding: 10px 10px; color: rgba(0,0,0,0.54);">
+                <strong style="font-weight: 700; font-size: 14px;">Company Cost</strong>
+              </td>
+              <td style="color:#000000; font-weight: 700; text-align: right; padding: 4px 10px; font-size: 20px">$9,876.06</td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column>
+          <mj-button mj-class="button button--secondary" href="https://google.com">
+            Go to Order!
+          </mj-button>
+        </mj-column>
+      </mj-section>
     <mj-include path="includes/footer.mjml" />
   </mj-body>
 </mjml>
