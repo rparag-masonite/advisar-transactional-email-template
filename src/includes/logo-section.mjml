@@ -1,5 +1,5 @@
 <mj-section background-color="#F6F9FC">
   <mj-column>
-    <mj-image width="120px" src="https://images.advisar.com/email/advisar-logo-color.png" />
+    <mj-image width="120px" alt="Advisar" src="https://images.advisar.com/email/advisar-logo-color.png" />
   </mj-column>
 </mj-section>
