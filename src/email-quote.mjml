@@ -29,14 +29,14 @@
       </mj-table>
 
       <mj-divider />
-      <mj-text mj-class="u-text--subtitle" align="left">Quoted Items</mj-text>
-
+      <mj-text mj-class="u-text--subtitle" align="left" padding-bottom="8px">Quoted Items</mj-text>
+    <mj-section padding="8px 12px 12px 12px">
       <mj-table padding="10px 25px 0px">
         <tr>
           <td style="width: 80px; text-align:center; background:#EAF0F6; padding: 16px;">
             <img src="https://images.advisar.com/products/exterior-door/preview/snow/dr_ext_d_ll_2p-cheyenne-12-106_clear.png" style="width: auto; height: 100%; max-height: 80px;">
           </td>
-          <td style="padding: 16px; background: #F6F9FC;">
+          <td style="padding: 16px; background: #F6F9FC; text-align: left;">
             3/0 X 6/6 SMOOTH FG 2 PANEL CHEYENNE BELLEVILLE PREM SPEC COMPOSITE EDGE PRE-FINISHED SINGLE PH WITH SINGLE DOOR 2P CHEYENNE 1/2 GLASS
             <div></div>
             <strong style="font-size: 16px; line-height: 160%; color: black;">$3,254.78</strong>/ Unit &nbsp;|&nbsp; QTY: 1
@@ -62,7 +62,7 @@
         <mj-accordion-element>
           <mj-accordion-title>PRODUCT DETAILS</mj-accordion-title>
           <mj-accordion-text>
-            <table style="width: 100%;">
+            <table style="width: 100%; text-align: left;">
               <tbody>
                 <tr>
                   <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%;">PANEL</td>
@@ -126,13 +126,14 @@
           </mj-accordion-text>
         </mj-accordion-element>
       </mj-accordion>
-
+    </mj-section>
+    <mj-section padding="0px 12px 12px 12px">
       <mj-table padding="10px 25px 0px">
         <tr>
           <td style="width: 80px; text-align:center; background:#EAF0F6; padding: 16px;">
             <img src="https://images.advisar.com/products/exterior-door/preview/snow/dr_ext_sl-dd_ll_6p-full-122_naples_2p-12-129_naples.png" style="width: auto; height: 100%; max-height: 80px;">
           </td>
-          <td style="padding: 16px; background: #F6F9FC;">
+          <td style="padding: 16px; background: #F6F9FC; text-align: left;">
             3/0 X 6/6 SMOOTH FG 2 PANEL CHEYENNE BELLEVILLE PREM SPEC COMPOSITE EDGE PRE-FINISHED SINGLE PH WITH SINGLE DOOR 2P CHEYENNE 1/2 GLASS
             <br />
             <div></div>
@@ -159,7 +160,7 @@
         <mj-accordion-element>
           <mj-accordion-title>PRODUCT DETAILS</mj-accordion-title>
           <mj-accordion-text>
-            <table style="width: 100%;">
+            <table style="width: 100%; text-align: left;">
               <tbody>
                 <tr>
                   <td style="border-bottom: 1px solid rgba(0,0,0,.12); line-height: 150%; padding: 8px 0px; width: 50%;">PANEL</td>
@@ -223,18 +224,14 @@
           </mj-accordion-text>
         </mj-accordion-element>
       </mj-accordion>
-
+    </mj-section>
       <mj-divider />
 
       <mj-text mj-class="u-text--subtitle">Follow up</mj-text>
       <mj-text align="center" mj-class="u-text--multi">
         COMPANY ELITE-C
         <br />
-        <span style="font-size: 14px;">Phone: (888) 888-8888</span>
-        <br />
         <span style="font-size: 14px;">Email: PRIMARY@ELITE-C.COM</span>
-        <br />
-        <span style="font-size: 14px;">Created On: Monday, November 11, 2019</span>
       </mj-text>
 
     </mj-column>
