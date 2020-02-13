@@ -145,8 +145,8 @@
                   <td style="padding: 0 8px 0 0; vertical-align: middle;">
                     Exterior Stain:
                   </td>
-                  <td>
-                    <span style="display: table;height: 16px; width: 16px; background: #664B37; outline: 1px solid rgba(0,0,0,.12);"></span>
+                  <td style="padding: 4px 0 0; vertical-align: middle;">
+                    <img width="16" height="16" style="border: 1px solid rgba(0,0,0,0.12);" src="https://images.advisar.com/products/exterior-door/selection/finish/stain/elegant_mahogany.png" />
                   </td>
                 </tr>
               </tbody>
