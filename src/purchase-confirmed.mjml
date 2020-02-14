@@ -38,7 +38,7 @@
             <td style="color:#000000; font-weight: 700; text-align: right; padding: 10px; font-size: 24px">$2,005.84</td>
           </tr>
         </mj-table>
-        <mj-button mj-class="button button--secondary" href="https://google.com">
+        <mj-button mj-class="button button--secondary" href="https://advisar.com">
         View Order
       </mj-button>
       <mj-text mj-class="u-text--multi"><strong style="color: #000000;">Questions?</strong><br/>If you have questions or concerns about your order, contact us at <a style="color: #000000;" href="mailto:help@advisar.com">CustomerCare@Advisar.com</a> or by calling <a style="color: #000000;" href="tel:8312613580">813-261-3580</a>.

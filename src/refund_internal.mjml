@@ -40,7 +40,7 @@
             <td style="color:#000000; font-weight: 700; line-height: 1.4; padding: 12px;"><span style="color: #65758C; font-size:12px;">NOTE:</span><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo felis lacus, eu gravida eros pulvinar a. Duis varius auctor lectus, in accumsan sapien rutrum nec.</td>
           </tr>
         </mj-table>
-        <mj-button mj-class="button button--secondary" href="https://google.com">
+        <mj-button mj-class="button button--secondary" href="https://advisar.com">
           View Order
         </mj-button>
     </mj-column>

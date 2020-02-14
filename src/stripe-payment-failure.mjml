@@ -52,7 +52,7 @@
             <td style="color:#000000; font-weight: 700; padding: 12px;"><span style="color: #65758C;">Reason:</span><br />The credit card could not be charged due to an issue with the payment information; Your card was declined.</td>
           </tr>
         </mj-table>
-        <mj-button mj-class="button button--secondary" href="https://google.com">
+        <mj-button mj-class="button button--secondary" href="https://advisar.com">
           View Order
         </mj-button>
     </mj-column>

@@ -21,7 +21,7 @@
           </tr>
         </mj-table>
         <mj-text mj-class="u-text--multi u-text--center" padding="10px 25px 16px 25px">Set your password by clicking the link below.</mj-text>
-        <mj-button mj-class="button button--secondary" href="https://google.com">
+        <mj-button mj-class="button button--secondary" href="https://advisar.com">
           Activate Account
         </mj-button>
         <mj-text mj-class="u-text--footer">The link will expire in 24 hours</mj-text>

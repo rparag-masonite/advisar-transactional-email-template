@@ -54,10 +54,10 @@
             </td>
           </tr>
         </mj-table>
-        <mj-button mj-class="button button--secondary" href="https://google.com">
+        <mj-button mj-class="button button--secondary" href="https://advisar.com">
           View New Quote
         </mj-button>
-        <mj-button mj-class="link" href="https://google.com">
+        <mj-button mj-class="link" href="https://advisar.com">
           or view quote-in-purchase
         </mj-button>
     </mj-column>

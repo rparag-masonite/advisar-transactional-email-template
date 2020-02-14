@@ -36,7 +36,7 @@
             <td style="color:#000000; font-weight: 700; text-align: right; padding: 10px;">$98,765</td>
           </tr>
         </mj-table>
-      <mj-button mj-class="button button--secondary" href="https://google.com">
+      <mj-button mj-class="button button--secondary" href="https://advisar.com">
         Go to dashboard
       </mj-button>
     </mj-column>

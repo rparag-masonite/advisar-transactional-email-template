@@ -44,7 +44,7 @@
             </td>
           </tr>
         </mj-table>
-        <mj-button mj-class="button button--secondary" href="https://google.com">
+        <mj-button mj-class="button button--secondary" href="https://advisar.com">
         View Lead Details
       </mj-button>
     </mj-column>

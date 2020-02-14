@@ -31,7 +31,7 @@
             </td>
           </tr>
         </mj-table>
-      <mj-button mj-class="button button--secondary" width="250px" href="https://google.com">
+      <mj-button mj-class="button button--secondary" width="250px" href="https://advisar.com">
           Go to quote
         </mj-button>
     </mj-column>

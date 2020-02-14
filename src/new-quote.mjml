@@ -26,7 +26,7 @@
             <td style="font-weight: 700; text-align: right; padding: 10px;">2019-04-02 13:28:53 ET</td>
           </tr>
         </mj-table>
-        <mj-button mj-class="button button--secondary" href="https://google.com">
+        <mj-button mj-class="button button--secondary" href="https://advisar.com">
         Go to quote!
       </mj-button>
     </mj-column>

@@ -14,12 +14,12 @@
       -->
       <mj-text mj-class="u-text--multi">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac justo vitae tellus ullamcorper eleifend. Proin volutpat magna id nunc bibendum, eget ullamcorper nunc fringilla. Aliquam scelerisque elit elit, a rhoncus nisi varius eget. Proin hendrerit libero nec mi.
       </mj-text>
-      <mj-button mj-class="button button--secondary" href="https://google.com">
+      <mj-button mj-class="button button--secondary" href="https://advisar.com">
         This is a button!
       </mj-button>
       <mj-text mj-class="u-text--multi u-text--center">Lorem ipsum dolor sit amet.</mj-text>
-      <mj-button mj-class="link" href="https://google.com">
-        Links can look like this : http://google.com
+      <mj-button mj-class="link" href="https://advisar.com">
+        Links can look like this : http://advisar.com
       </mj-button>
     </mj-column>
     </mj-section>

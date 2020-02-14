@@ -27,7 +27,7 @@
             <td style="font-weight: 700; text-align: right; padding: 10px;">$5,432</td>
           </tr>
         </mj-table>
-        <mj-button mj-class="button button--secondary" href="https://google.com">
+        <mj-button mj-class="button button--secondary" href="https://advisar.com">
         View all quotes
       </mj-button>
     </mj-column>

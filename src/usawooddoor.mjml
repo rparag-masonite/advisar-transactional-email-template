@@ -68,7 +68,7 @@
             <td style="color:#000000; font-weight: 700; text-align: right; padding: 10px; font-size: 18px">$15,005.84</td>
           </tr>
         </mj-table>
-        <mj-button mj-class="button button--primary" href="https://google.com">
+        <mj-button mj-class="button button--primary" href="https://advisar.com">
         Go to Order!
       </mj-button>
     </mj-column>

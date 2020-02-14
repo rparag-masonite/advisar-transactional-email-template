@@ -84,7 +84,7 @@
       </mj-section>
       <mj-section>
         <mj-column>
-          <mj-button mj-class="button button--secondary" href="https://google.com">
+          <mj-button mj-class="button button--secondary" href="https://advisar.com">
             Go to Order!
           </mj-button>
         </mj-column>
