@@ -39,6 +39,7 @@
     <mj-group>
       <mj-column background-color="#F6F9FC" border="1px solid #C4CFDD">
         <mj-image src="https://images.advisar.com/products/exterior-door/preview/snow/dr_ext_d_ll_2p-cheyenne-12-106_clear.png" width="80px" />
+        <mj-text align="center" font-size="13px" line-height="140%" color="#F44336">The photo above shows the door without a finish or stain. Please see below to find your chosen finish selection(s)</mj-text>
         <mj-table padding="0px 0px">
           <tr>
             <td style="width:100%; padding: 16px; text-align: left;">
@@ -53,7 +54,7 @@
                       Exterior Finish:
                     </td>
                     <td>
-                      <span style="display: table;height: 16px; width: 16px; background: #C4B84F; outline: 1px solid rgba(0,0,0,.12);"></span>
+                      <table style="height: 16px; width: 16px; background: #C4B84F; outline: 1px solid rgba(0,0,0,.12);"></table>
                     </td>
                   </tr>
                 </tbody>
@@ -143,6 +144,7 @@
     <mj-group>
       <mj-column background-color="#F6F9FC" border="1px solid #C4CFDD">
         <mj-image src="https://images.advisar.com/products/exterior-door/preview/snow/dr_ext_sl-dd-sl_ll_6p-full-122_clear_2p-12-129_clear.png" width="190px" />
+        <mj-text align="center" font-size="13px" line-height="140%" color="#F44336">The photo above shows the door without a finish or stain. Please see below to find your chosen finish selection(s)</mj-text>
         <mj-table padding="0px 0px">
           <tr>
             <td style="width:100%; padding: 16px; text-align: left;">
@@ -157,7 +159,7 @@
                       Exterior Finish:
                     </td>
                     <td>
-                      <span style="display: table;height: 16px; width: 16px; background: #C4B84F; outline: 1px solid rgba(0,0,0,.12);"></span>
+                      <table style="height: 16px; width: 16px; background: #C4B84F; outline: 1px solid rgba(0,0,0,.12);"></table>
                     </td>
                   </tr>
                 </tbody>
