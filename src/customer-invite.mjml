@@ -1,0 +1,23 @@
+<mjml>
+  <mj-head>
+   <mj-include path="includes/header.mjml" />
+  </mj-head>
+  <mj-body background-color="#DEE5EE">
+  <mj-section background-color="transparent"></mj-section>
+  <mj-include path="includes/logo-section.mjml" />
+    <mj-section mj-class="header__primary">
+    <mj-column>
+      <mj-text mj-class="u-text--subtitle">Order configuration</mj-text>
+      <mj-text mj-class="u-text--title">Customize Your Door</mj-text>
+      <mj-image width="200px" src="./images/email__psuedoSuccess.png" />
+      <mj-text align="center" mj-class="u-text--multi">
+        <strong style="color: rgba(0,0,0,1);">Hello ${firstName}!</strong><br/><br/> KIMI RAIKKONEN has invited you to build and customize your door. Get started by selecting your design, glass, and finish options in the configurator.
+      </mj-text>
+      <mj-button mj-class="button button--secondary" width="250px" href="https://advisar.com">Build Your Door</mj-button>
+      <mj-text mj-class="u-text--footer">Button not working? Paste the following link into your browser: <a style="color: #00AEEF;" href="https://advisar.com">https://www.advisar.com/pro/consumer-leads/:resourceId?t=:token</a></mj-text>
+    </mj-column>
+    </mj-section>
+   
+    <mj-include path="includes/footer.mjml" />
+  </mj-body>
+</mjml>
