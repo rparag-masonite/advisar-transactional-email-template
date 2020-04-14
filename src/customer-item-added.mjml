@@ -1,0 +1,42 @@
+<mjml>
+  <mj-head>
+   <mj-include path="includes/header.mjml" />
+  </mj-head>
+  <mj-body background-color="#DEE5EE">
+  <mj-section background-color="transparent"></mj-section>
+  <mj-include path="includes/logo-section.mjml" />
+    <mj-section mj-class="header__primary">
+    <mj-column>
+      <mj-text mj-class="u-text--subtitle">Lead Activity</mj-text>
+      <mj-text mj-class="u-text--title">Item Added!</mj-text>
+      <mj-image width="200px" src="./images/email__psuedoSuccess.png" />
+      <mj-text align="center" mj-class="u-text--multi">
+        <strong style="color: rgba(0,0,0,1);">${firstName}!</strong> added a new item to your lead:
+      </mj-text>
+       <mj-table mj-class="table">
+          <tr style="border: 1px solid #95A4B9; margin-bottom: 10px;">
+            <td style="padding: 10px;"><strong style="font-weight: 400; font-size: 16px;">Design</td>
+            <td style="font-weight: 700; text-align: right; padding: 10px;">Two 1/2 SL Door 6P Full Glass</td>
+          </tr>
+          <tr style="border: 1px solid #95A4B9; margin-bottom: 10px;">
+            <td style="padding: 10px;"><strong style="font-weight: 400; font-size: 16px;">Glass</td>
+            <td style="font-weight: 700; text-align: right; padding: 10px;">Element | Clear</td>
+          </tr>
+          <tr style="border: 1px solid #95A4B9; margin-bottom: 10px;">
+            <td style="padding: 10px;"><strong style="font-weight: 400; font-size: 16px;">Finish</td>
+            <td style="font-weight: 700; text-align: right; padding: 10px;">
+                Elegant Mahogany
+            </td>
+          </tr>
+          <tr style="border: 1px solid #95A4B9; margin-bottom: 10px;">
+            <td style="padding: 10px;"><strong style="font-weight: 400; font-size: 16px;">Layout</td>
+            <td style="font-weight: 700; text-align: right; padding: 10px;">Single Door, 2 Sidelite</td>
+          </tr>
+        </mj-table>
+      <mj-button mj-class="button button--secondary" width="250px" href="https://advisar.com">View Lead</mj-button>
+    </mj-column>
+    </mj-section>
+   
+    <mj-include path="includes/footer.mjml" />
+  </mj-body>
+</mjml>
