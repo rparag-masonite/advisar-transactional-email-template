@@ -8,10 +8,10 @@
     <mj-section mj-class="header__primary">
     <mj-column>
       <mj-text mj-class="u-text--subtitle">Order Activity</mj-text>
-      <mj-text mj-class="u-text--title">Insufficient Credit</mj-text>
+      <mj-text mj-class="u-text--title">Credit Status</mj-text>
       <mj-image width="200px" src="./images/email__warning.png" />
       <mj-text align="center" mj-class="u-text--multi">
-        <strong style="color: rgba(0,0,0,1);">${firstName}</strong> started a purchase using Masonite Credit, but has insufficient funds in their credit line.
+        <strong style="color: rgba(0,0,0,1);">${firstName}</strong> started a purchase using Masonite Credit, but is unable to purchase due to the status of their available credit.
       </mj-text>
        <mj-table mj-class="table">
           <tr style="border: 1px solid #95A4B9; margin-bottom: 10px;">
